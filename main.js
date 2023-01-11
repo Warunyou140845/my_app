@@ -30,5 +30,5 @@ document.getElementById("Calculator4").addEventListener("click",function(){
     alert(sum)
 });
 function myalert(){
-    alert(sum)
+    alert(s)
 }

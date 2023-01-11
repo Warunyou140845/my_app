@@ -18,15 +18,21 @@
     <form action="">
         <input type="text" id="num1">
         <input type="text" id="num2">
-        <button type="button" id="Calculator1">+</button>
-        <button type="button" id="Calculator2">-</button>
-        <button type="button" id="Calculator3">*</button>
-        <button type="button" id="Calculator4">/</button>
-
-        <button onclick="myalert()">Alert</button>
+        <button type="button" onclick="Calculator1()">+</button>
+        <button type="button" onclick="Calculator2()">-</button>
+        <button type="button" onclick="Calculator3()">*</button>
+        <button type="button" onclick="Calculator4()">/</button>
+        <button onclick="myalert()">alert</button>
     </form>
 
     <p id="result"></p>
+
+    <h4>BMI</h4>
+    <form action="">
+        <input type="text" id="hight" placeholder="hight(cm)">
+        <input type="text" id="width" placeholder="width">
+        <button onclick="bmi()">calculate</button>
+    </form>
 </body>
 <script src="main.js"></script>
 
